@@ -1,0 +1,24 @@
+.nav {
+  margin-top: 40px;
+}
+.nav__title {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  color: var(--text-grey);
+  margin-bottom: 8px;
+}
+.nav__hashtags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12px;
+}
+.nav__hashtags-tag {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  color: var(--text-grey);
+  background-color: var(--text-grey-bg);
+}
+/*# sourceMappingURL=nav.css.map */

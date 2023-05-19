@@ -1,0 +1,29 @@
+.author {
+   margin-top: 28px;
+   &__wrapper {
+      display: flex;
+      gap: 16px;
+   }
+   &__logo {
+      position: relative;
+      &-photo {
+         position: absolute;
+         top: 14px;
+         left: 14px;
+      }
+   }
+   &__text {
+      &__name {
+         font-weight: 700;
+         font-size: 15px;
+         line-height: 20px;
+         color: var(--main);
+      }
+      &__job {
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 20px;
+         color: var(--text-grey);
+      }
+   }
+}
